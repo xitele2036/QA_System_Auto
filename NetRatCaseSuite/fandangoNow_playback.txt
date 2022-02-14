@@ -1,0 +1,20 @@
+cast-html5-fandangoNow
+sleep 20
+OK
+sleep 8
+DOWN
+sleep 3
+DOWN
+sleep 3
+DOWN
+sleep 3
+OK
+sleep 5
+RIGHT
+sleep 2
+OK
+sleep 4
+UP
+sleep 2
+OK
+sleep 3

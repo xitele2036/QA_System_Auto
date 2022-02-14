@@ -1,0 +1,8 @@
+cobalt-youtube
+sleep 25
+DOWN
+sleep 5
+OK
+sleep 8
+OK
+sleep 5

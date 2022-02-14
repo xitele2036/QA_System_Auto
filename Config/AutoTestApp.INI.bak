@@ -1,0 +1,43 @@
+[RestConnection]
+Type = Ethernet
+Ethernet.IP = 10.86.79.109
+Port = 7345
+DICT_FILE = .\Dictionary.txt
+Auth_Token =
+UDP_PORT = 54321
+
+[AUTOTEST]
+AutoTestCfg = Sanity_Test.xlsx
+
+[SERIAL]
+Board_PORT = COM6
+DEV_QD_PORT = COM6
+
+[TestPC]
+TestPC_IP = 10.86.79.113
+
+[Tablet]
+Tablet_IP = 10.86.79.93
+CAST_DEVICE_MODEL = NEXUS_tablet
+
+[RedRat]
+RedRat_Name = RedRatQA1
+RedRat_dataset = Vizio
+
+[VG859]
+VG859_IP = 10.86.40.89
+
+[QD980]
+QD980_IP = 10.86.40.89
+QD980_UserName = qd
+QD980_PW = qd
+
+[Camera]
+Camera_Video_Device_Name = Logitech HD Pro Webcam C920
+Camera_Audio_Device_Name = 麦克风 (HD Pro Webcam C920)
+
+[EPCR3]
+EPCR3_IP = 10.86.40.190
+EPCR3_UserName = test
+EPCR3_PW = test
+

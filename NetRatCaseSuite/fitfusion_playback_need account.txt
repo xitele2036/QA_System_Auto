@@ -1,0 +1,11 @@
+cast-html5-fitfusion
+sleep 15
+RIGHT
+sleep 2
+OK
+sleep 8
+DOWN
+sleep 2
+OK
+sleep 8
+

@@ -1,0 +1,8 @@
+cast-html5-curiositystream
+sleep 18
+OK
+sleep 5
+UP
+sleep 2
+OK
+sleep 3

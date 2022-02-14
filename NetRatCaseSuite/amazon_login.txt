@@ -1,0 +1,93 @@
+cast-html5-amazon
+sleep 20
+OK
+sleep 8
+OK
+sleep 3
+DOWN
+sleep 1
+DOWN
+sleep 1
+RIGHT
+sleep 1
+OK
+sleep 1
+RIGHT
+sleep 1
+RIGHT
+sleep 1
+RIGHT
+sleep 1
+RIGHT
+sleep 1
+RIGHT
+sleep 1
+RIGHT
+sleep 1
+UP
+sleep 1
+OK
+sleep 1
+LEFT
+sleep 1
+LEFT
+sleep 1
+LEFT
+sleep 1
+DOWN
+sleep 1
+OK
+sleep 1
+RIGHT
+sleep 1
+RIGHT
+sleep 1
+DOWN
+sleep 1
+OK
+sleep 1
+LEFT
+sleep 1
+LEFT
+sleep 1
+LEFT
+sleep 1
+LEFT
+sleep 1
+LEFT
+sleep 1
+LEFT
+sleep 1
+UP
+sleep 1
+OK
+sleep 1
+RIGHT
+RIGHT
+RIGHT
+RIGHT
+RIGHT
+RIGHT
+UP
+OK
+LEFT
+LEFT
+LEFT
+LEFT
+LEFT
+DOWN
+OK
+UP
+LEFT
+OK
+DOWN
+OK
+RIGHT
+RIGHT
+RIGHT
+RIGHT
+RIGHT
+RIGHT
+RIGHT
+DOWN
+OK

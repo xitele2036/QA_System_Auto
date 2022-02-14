@@ -1,0 +1,6 @@
+native-usb
+sleep 5
+OK
+sleep 3
+OK
+sleep 3

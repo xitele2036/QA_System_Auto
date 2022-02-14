@@ -1,0 +1,14 @@
+cast-html5-cbsn
+sleep 18
+DOWN
+sleep 2
+DOWN
+sleep 2
+OK
+sleep 8
+DOWN
+sleep 3
+DOWN
+sleep 3
+OK
+sleep 10

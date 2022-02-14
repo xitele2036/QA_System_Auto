@@ -1,0 +1,10 @@
+cast-html5-flixfling
+sleep 25
+OK
+sleep 8
+LEFT
+sleep 2
+DOWN
+sleep 2
+OK
+sleep 10

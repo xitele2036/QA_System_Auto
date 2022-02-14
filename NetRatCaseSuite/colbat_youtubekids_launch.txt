@@ -1,0 +1,4 @@
+cobalt-youtubekids
+sleep 18
+OK
+sleep 2

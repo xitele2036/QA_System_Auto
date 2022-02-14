@@ -1,0 +1,12 @@
+chromium-html5-crackle
+sleep 18
+DOWN
+sleep 2
+OK
+sleep 3
+DOWN
+sleep 2
+OK
+sleep 2
+OK
+sleep 10

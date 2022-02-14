@@ -1,0 +1,6 @@
+cast-html5-tasteit
+sleep 15
+OK
+sleep 5
+OK
+sleep 10

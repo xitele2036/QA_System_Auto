@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AVDeviceDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AVDevices>
+    <AVDevice>
+      <Name>VizioRemote</Name>
+      <Manufacturer>Vizio</Manufacturer>
+      <DeviceModelNumber />
+      <RemoteModelNumber />
+      <DeviceType>TV</DeviceType>
+      <DecoderClass>default</DecoderClass>
+      <RCCorrection>
+        <useDefault>true</useDefault>
+        <rcCorrVal>0</rcCorrVal>
+      </RCCorrection>
+      <CreateDelta>
+        <useDefault>true</useDefault>
+        <deltaValue>0</deltaValue>
+      </CreateDelta>
+      <DecodeDelta>
+        <useDefault>true</useDefault>
+        <deltaValue>0</deltaValue>
+      </DecodeDelta>
+      <DoubleSignals>false</DoubleSignals>
+      <KeyboardSignals>false</KeyboardSignals>
+      <XMP1Signals>false</XMP1Signals>
+      <Signals>
+        <IRPacket xsi:type="RedRat3ModulatedSignal">
+          <Name>menu</Name>
+          <UID>2REjYcNE3E6bkc7R8+/5RA==</UID>
+          <PauseRepeatMode>ConstantGap</PauseRepeatMode>
+          <RepeatPause>0</RepeatPause>
+          <ModulationFreq>37122</ModulationFreq>
+          <Lengths>
+            <double>8.9669999999999987</double>
+            <double>4.525</double>
+            <double>0.55999999999999994</double>
+            <double>1.6935</double>
+            <double>2.2655000000000003</double>
+          </Lengths>
+          <SigData>AAECAgICAgMCAgICAgICAgICAgMCAwICAgMCAwIDAgMCAwIDAgMCAwIDAgICAgIDAgICAgICAgICAgIDAgMCAgIDAn8ABAJ/</SigData>
+          <NoRepeats>1</NoRepeats>
+          <IntraSigPause>39.317</IntraSigPause>
+          <ToggleData />
+        </IRPacket>
+        <IRPacket xsi:type="RedRat3ModulatedSignal">
+          <Name>netflix</Name>
+          <UID>9iJiVsSZlEKs/zXKIZTw8g==</UID>
+          <PauseRepeatMode>ConstantGap</PauseRepeatMode>
+          <RepeatPause>0</RepeatPause>
+          <ModulationFreq>36951</ModulationFreq>
+          <Lengths>
+            <double>8.971</double>
+            <double>4.5295</double>
+            <double>0.5615</double>
+            <double>1.699</double>
+            <double>2.262</double>
+          </Lengths>
+          <SigData>AAECAgICAgMCAgICAgICAgICAgMCAwICAgMCAwIDAgMCAwIDAgMCAgIDAgICAwIDAgMCAgICAgMCAgIDAgICAgICAn8ABAJ/</SigData>
+          <NoRepeats>1</NoRepeats>
+          <IntraSigPause>39.322500000000005</IntraSigPause>
+          <ToggleData />
+        </IRPacket>
+        <IRPacket xsi:type="RedRat3ModulatedSignal">
+          <Name>OK</Name>
+          <UID>/4KJacJFBEK+9JzCIMrW9A==</UID>
+          <PauseRepeatMode>ConstantGap</PauseRepeatMode>
+          <RepeatPause>0</RepeatPause>
+          <ModulationFreq>37037</ModulationFreq>
+          <Lengths>
+            <double>8.9695</double>
+            <double>4.5315</double>
+            <double>0.562</double>
+            <double>1.6975</double>
+            <double>2.2655000000000003</double>
+          </Lengths>
+          <SigData>AAECAgICAgMCAgICAgICAgICAgMCAwICAgMCAwIDAgMCAwICAgICAwICAgICAgIDAgICAwIDAgICAwIDAgMCAgIDAn8ABAJ/</SigData>
+          <NoRepeats>1</NoRepeats>
+          <IntraSigPause>39.315000000000005</IntraSigPause>
+          <ToggleData />
+        </IRPacket>
+      </Signals>
+    </AVDevice>
+  </AVDevices>
+</AVDeviceDB>

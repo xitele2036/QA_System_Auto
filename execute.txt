@@ -1,0 +1,60 @@
+OK
+sleep 5
+OK
+sleep 5
+OK
+sleep 7
+RIGHT
+sleep 2
+OK
+sleep 300
+OK
+sleep 15
+OK
+sleep 40
+OK
+sleep 3
+OK
+sleep 5
+OK
+sleep 5
+RIGHT
+sleep 1
+RIGHT
+sleep 1
+RIGHT
+sleep 1
+RIGHT
+sleep 1
+RIGHT
+sleep 1
+RIGHT
+sleep 1
+RIGHT
+sleep 1
+RIGHT
+sleep 1
+RIGHT
+sleep 1
+DOWN
+sleep 1
+DOWN
+sleep 1
+DOWN
+sleep 1
+OK
+sleep 5
+OK
+sleep 3
+OK
+sleep 20
+OK
+sleep 3
+OK
+sleep 3
+OK
+sleep 20
+OK
+sleep 3
+OK
+sleep 3

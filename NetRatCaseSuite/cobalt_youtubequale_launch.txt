@@ -1,0 +1,16 @@
+cobalt-youtubequale
+sleep 15
+RIGHT
+2
+RIGHT
+2
+OK
+sleep 2
+OK
+sleep 15
+DOWN
+sleep 2
+DOWN
+sleep 2
+OK
+sleep 10

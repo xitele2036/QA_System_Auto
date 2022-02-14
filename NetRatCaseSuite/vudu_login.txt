@@ -1,0 +1,116 @@
+cast-vudu
+sleep 20
+DOWN
+sleep 1
+DOWN
+sleep 1
+OK
+sleep 5
+OK
+sleep 5
+KEYBOARD_d
+sleep 1
+KEYBOARD_e
+sleep 1
+KEYBOARD_v
+sleep 1
+KEYBOARD_d
+sleep 1
+KEYBOARD_t
+sleep 1
+KEYBOARD_v
+sleep 1
+KEYBOARD_AT
+sleep 1
+KEYBOARD_s
+sleep 1
+KEYBOARD_d
+sleep 1
+KEYBOARD_e
+sleep 1
+KEYBOARD_s
+sleep 1
+KEYBOARD_i
+sleep 1
+KEYBOARD_g
+sleep 1
+KEYBOARD_n
+sleep 1
+KEYBOARD_s
+sleep 1
+KEYBOARD_FULL_STOP
+sleep 1
+KEYBOARD_c
+sleep 1
+KEYBOARD_o
+sleep 1
+KEYBOARD_m
+sleep 1
+DOWN
+sleep 2
+DOWN
+sleep 2
+DOWN
+sleep 2
+DOWN
+sleep 2
+DOWN
+sleep 2
+DOWN
+sleep 2
+RIGHT
+sleep 2
+OK
+sleep 5
+KEYBOARD_S
+sleep 1
+KEYBOARD_i
+sleep 1
+KEYBOARD_g
+sleep 1
+KEYBOARD_m
+sleep 1
+KEYBOARD_a
+sleep 1
+2
+sleep 1
+KEYBOARD_S
+sleep 1
+KEYBOARD_i
+sleep 1
+KEYBOARD_g
+sleep 1
+KEYBOARD_m
+sleep 1
+KEYBOARD_a
+sleep 1
+DOWN
+sleep 2
+DOWN
+sleep 2
+DOWN
+sleep 2
+DOWN
+sleep 2
+DOWN
+sleep 2
+DOWN
+sleep 2
+RIGHT
+sleep 2
+OK
+sleep 10
+OK
+sleep 10
+LEFT
+sleep 2
+OK
+sleep 2
+RIGHT
+sleep 2
+OK
+sleep 5
+OK
+sleep 10
+OK
+[end]

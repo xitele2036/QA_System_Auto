@@ -1,0 +1,97 @@
+native-netflix
+sleep 15
+DOWN
+sleep 3
+OK
+sleep 10
+KEYBOARD_t
+sleep 1
+KEYBOARD_e
+sleep 1
+KEYBOARD_s
+sleep 1
+KEYBOARD_t
+sleep 1
+KEYBOARD_e
+sleep 1
+KEYBOARD_r
+sleep 1
+KEYBOARD_UNDERSCORE
+sleep 1
+KEYBOARD_s
+sleep 1
+KEYBOARD_h
+sleep 1
+KEYBOARD_q
+sleep 1
+KEYBOARD_a
+sleep 1
+KEYBOARD_AT
+sleep 1
+KEYBOARD_n
+sleep 1
+KEYBOARD_e
+sleep 1
+KEYBOARD_t
+sleep 1
+KEYBOARD_f
+sleep 1
+KEYBOARD_l
+sleep 1
+KEYBOARD_i
+sleep 1
+KEYBOARD_x
+sleep 1
+KEYBOARD_COM
+sleep 1
+DOWN
+sleep 1
+OK
+sleep 5
+KEYBOARD_V
+sleep 1
+KEYBOARD_s
+sleep 1
+1
+sleep 1
+1
+sleep 1
+1
+sleep 1
+1
+sleep 1
+1
+sleep 1
+1
+sleep 1
+DOWN
+sleep 1
+DOWN
+sleep 1
+DOWN
+sleep 1
+DOWN
+sleep 1
+DOWN
+sleep 1
+OK
+sleep 15
+OK
+sleep 5
+OK
+sleep 5
+OK
+sleep 15
+
+
+
+
+
+
+
+
+
+
+
+
+

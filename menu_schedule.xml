@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SchedulerState xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Actions>
+    <ScheduledAction>
+      <Enabled>true</Enabled>
+      <Name>menu_schedule</Name>
+      <MacroName>menu</MacroName>
+      <StartDateTime>2018-08-23T21:31:05</StartDateTime>
+      <RepeatIndefinitely>false</RepeatIndefinitely>
+      <RepeatPeriod />
+      <RepeatPeriodTicks>0</RepeatPeriodTicks>
+      <ActionCount>1</ActionCount>
+    </ScheduledAction>
+    <ScheduledAction>
+      <Enabled>true</Enabled>
+      <Name>New Event</Name>
+      <MacroName>xx</MacroName>
+      <StartDateTime>2018-09-11T15:01:03</StartDateTime>
+      <RepeatIndefinitely>true</RepeatIndefinitely>
+      <RepeatPeriod />
+      <RepeatPeriodTicks>30000000</RepeatPeriodTicks>
+      <ActionCount>1</ActionCount>
+    </ScheduledAction>
+  </Actions>
+  <Macros>
+    <Macro>
+      <Pause>0</Pause>
+      <Position>0</Position>
+      <Name>xx</Name>
+      <MacroActions>
+        <MacroAction xsi:type="SignalAction">
+          <Pause>0</Pause>
+          <Position>0</Position>
+          <IROutputLocation xsi:type="RedRat3LocationInfo">
+            <Description>No desc</Description>
+            <Name>RedRatQA1</Name>
+            <RRType>RedRat3_II_USB</RRType>
+            <SerialNo>17908</SerialNo>
+          </IROutputLocation>
+          <DeviceName>Vizio</DeviceName>
+          <Signal xsi:type="RedRat3ModulatedSignal">
+            <Name>Menu</Name>
+            <UID>VtWlzOGW9k6fQJX7jHcrMA==</UID>
+            <PauseRepeatMode>ConstantGap</PauseRepeatMode>
+            <RepeatPause>0</RepeatPause>
+            <ModulationFreq>37122</ModulationFreq>
+            <Lengths>
+              <double>8.9485</double>
+              <double>4.5184999999999995</double>
+              <double>0.558</double>
+              <double>1.6905</double>
+              <double>2.2855000000000003</double>
+            </Lengths>
+            <SigData>AAECAgICAgMCAgICAgICAgICAgMCAwICAgMCAwIDAgMCAwIDAgMCAwIDAgICAgIDAgICAgICAgICAgIDAgMCAgIDAn8ABAJ/</SigData>
+            <NoRepeats>1</NoRepeats>
+            <IntraSigPause>39.242</IntraSigPause>
+            <ToggleData />
+          </Signal>
+        </MacroAction>
+      </MacroActions>
+    </Macro>
+    <Macro>
+      <Pause>0</Pause>
+      <Position>0</Position>
+      <Name>New Macro</Name>
+      <MacroActions />
+    </Macro>
+    <Macro>
+      <Pause>0</Pause>
+      <Position>0</Position>
+      <Name>OKSeq</Name>
+      <MacroActions>
+        <MacroAction xsi:type="SignalAction">
+          <Pause>0</Pause>
+          <Position>0</Position>
+          <IROutputLocation xsi:type="RedRat3LocationInfo">
+            <Description>No desc</Description>
+            <Name>RedRatQA1</Name>
+            <RRType>RedRat3_II_USB</RRType>
+            <SerialNo>17908</SerialNo>
+          </IROutputLocation>
+          <DeviceName>Vizio</DeviceName>
+          <Signal xsi:type="RedRat3ModulatedSignal">
+            <Name>Ok/Enter</Name>
+            <UID>iuMFSVbLJ0+3XWMrmXDcbQ==</UID>
+            <PauseRepeatMode>ConstantGap</PauseRepeatMode>
+            <RepeatPause>0</RepeatPause>
+            <ModulationFreq>37647</ModulationFreq>
+            <Lengths>
+              <double>8.908</double>
+              <double>4.4990000000000006</double>
+              <double>0.5595</double>
+              <double>1.6785</double>
+              <double>2.2520000000000002</double>
+            </Lengths>
+            <SigData>AAECAgICAgMCAgICAgICAgICAgMCAwICAgMCAwIDAgMCAwICAgICAwICAgICAgIDAgICAwIDAgICAwIDAgMCAgIDAn8ABAJ/</SigData>
+            <NoRepeats>1</NoRepeats>
+            <IntraSigPause>39.2995</IntraSigPause>
+            <ToggleData />
+          </Signal>
+        </MacroAction>
+        <MacroAction xsi:type="SignalAction">
+          <Pause>0</Pause>
+          <Position>1</Position>
+          <IROutputLocation xsi:type="RedRat3LocationInfo">
+            <Description>No desc</Description>
+            <Name>RedRatQA1</Name>
+            <RRType>RedRat3_II_USB</RRType>
+            <SerialNo>17908</SerialNo>
+          </IROutputLocation>
+          <DeviceName>Vizio</DeviceName>
+          <Signal xsi:type="RedRat3ModulatedSignal">
+            <Name>Ok/Enter</Name>
+            <UID>iuMFSVbLJ0+3XWMrmXDcbQ==</UID>
+            <PauseRepeatMode>ConstantGap</PauseRepeatMode>
+            <RepeatPause>0</RepeatPause>
+            <ModulationFreq>37647</ModulationFreq>
+            <Lengths>
+              <double>8.908</double>
+              <double>4.4990000000000006</double>
+              <double>0.5595</double>
+              <double>1.6785</double>
+              <double>2.2520000000000002</double>
+            </Lengths>
+            <SigData>AAECAgICAgMCAgICAgICAgICAgMCAwICAgMCAwIDAgMCAwICAgICAwICAgICAgIDAgICAwIDAgICAwIDAgMCAgIDAn8ABAJ/</SigData>
+            <NoRepeats>1</NoRepeats>
+            <IntraSigPause>39.2995</IntraSigPause>
+            <ToggleData />
+          </Signal>
+        </MacroAction>
+        <MacroAction xsi:type="SignalAction">
+          <Pause>0</Pause>
+          <Position>2</Position>
+          <IROutputLocation xsi:type="RedRat3LocationInfo">
+            <Description>No desc</Description>
+            <Name>RedRatQA1</Name>
+            <RRType>RedRat3_II_USB</RRType>
+            <SerialNo>17908</SerialNo>
+          </IROutputLocation>
+          <DeviceName>Vizio</DeviceName>
+          <Signal xsi:type="RedRat3ModulatedSignal">
+            <Name>Pause</Name>
+            <UID>X7HCjuJo6k6tExghYNEe0Q==</UID>
+            <PauseRepeatMode>ConstantGap</PauseRepeatMode>
+            <RepeatPause>0</RepeatPause>
+            <ModulationFreq>37037</ModulationFreq>
+            <Lengths>
+              <double>9.0034999999999989</double>
+              <double>4.549</double>
+              <double>0.562</double>
+              <double>1.7025000000000001</double>
+              <double>2.2720000000000002</double>
+            </Lengths>
+            <SigData>AAECAgICAgMCAgICAgICAgICAgMCAwICAgMCAwIDAgMCAwIDAgMCAwICAgMCAwICAgICAgICAgICAwICAgICAwIDAn8ABAJ/</SigData>
+            <NoRepeats>1</NoRepeats>
+            <IntraSigPause>39.497</IntraSigPause>
+            <ToggleData />
+          </Signal>
+        </MacroAction>
+      </MacroActions>
+    </Macro>
+    <Macro>
+      <Pause>0</Pause>
+      <Position>0</Position>
+      <Name>menu</Name>
+      <MacroActions>
+        <MacroAction xsi:type="SignalAction">
+          <Pause>2000</Pause>
+          <Position>0</Position>
+          <IROutputLocation xsi:type="RedRat3LocationInfo">
+            <Description>No desc</Description>
+            <Name>RedRatQA1</Name>
+            <RRType>RedRat3_II_USB</RRType>
+            <SerialNo>17908</SerialNo>
+          </IROutputLocation>
+          <DeviceName>Vizio</DeviceName>
+          <Signal xsi:type="RedRat3ModulatedSignal">
+            <Name>menu</Name>
+            <UID>J3SwCn2QskKWl5z0EfMtVg==</UID>
+            <PauseRepeatMode>ConstantGap</PauseRepeatMode>
+            <RepeatPause>0</RepeatPause>
+            <ModulationFreq>37122</ModulationFreq>
+            <Lengths>
+              <double>8.973</double>
+              <double>4.5295</double>
+              <double>0.55999999999999994</double>
+              <double>1.694</double>
+              <double>2.262</double>
+            </Lengths>
+            <SigData>AAECAgICAgMCAgICAgICAgICAgMCAwICAgMCAwIDAgMCAwIDAgMCAwIDAgICAgIDAgICAgICAgICAgIDAgMCAgIDAn8ABAJ/</SigData>
+            <NoRepeats>1</NoRepeats>
+            <IntraSigPause>39.328</IntraSigPause>
+            <ToggleData />
+          </Signal>
+        </MacroAction>
+        <MacroAction xsi:type="SignalAction">
+          <Pause>2000</Pause>
+          <Position>1</Position>
+          <IROutputLocation xsi:type="RedRat3LocationInfo">
+            <Description>No desc</Description>
+            <Name>RedRatQA1</Name>
+            <RRType>RedRat3_II_USB</RRType>
+            <SerialNo>17908</SerialNo>
+          </IROutputLocation>
+          <DeviceName>Vizio</DeviceName>
+          <Signal xsi:type="RedRat3ModulatedSignal">
+            <Name>menu</Name>
+            <UID>J3SwCn2QskKWl5z0EfMtVg==</UID>
+            <PauseRepeatMode>ConstantGap</PauseRepeatMode>
+            <RepeatPause>0</RepeatPause>
+            <ModulationFreq>37122</ModulationFreq>
+            <Lengths>
+              <double>8.973</double>
+              <double>4.5295</double>
+              <double>0.55999999999999994</double>
+              <double>1.694</double>
+              <double>2.262</double>
+            </Lengths>
+            <SigData>AAECAgICAgMCAgICAgICAgICAgMCAwICAgMCAwIDAgMCAwIDAgMCAwIDAgICAgIDAgICAgICAgICAgIDAgMCAgIDAn8ABAJ/</SigData>
+            <NoRepeats>1</NoRepeats>
+            <IntraSigPause>39.328</IntraSigPause>
+            <ToggleData />
+          </Signal>
+        </MacroAction>
+        <MacroAction xsi:type="SignalAction">
+          <Pause>2000</Pause>
+          <Position>2</Position>
+          <IROutputLocation xsi:type="RedRat3LocationInfo">
+            <Description>No desc</Description>
+            <Name>RedRatQA1</Name>
+            <RRType>RedRat3_II_USB</RRType>
+            <SerialNo>17908</SerialNo>
+          </IROutputLocation>
+          <DeviceName>Vizio</DeviceName>
+          <Signal xsi:type="RedRat3ModulatedSignal">
+            <Name>menu</Name>
+            <UID>J3SwCn2QskKWl5z0EfMtVg==</UID>
+            <PauseRepeatMode>ConstantGap</PauseRepeatMode>
+            <RepeatPause>0</RepeatPause>
+            <ModulationFreq>37122</ModulationFreq>
+            <Lengths>
+              <double>8.973</double>
+              <double>4.5295</double>
+              <double>0.55999999999999994</double>
+              <double>1.694</double>
+              <double>2.262</double>
+            </Lengths>
+            <SigData>AAECAgICAgMCAgICAgICAgICAgMCAwICAgMCAwIDAgMCAwIDAgMCAwIDAgICAgIDAgICAgICAgICAgIDAgMCAgIDAn8ABAJ/</SigData>
+            <NoRepeats>1</NoRepeats>
+            <IntraSigPause>39.328</IntraSigPause>
+            <ToggleData />
+          </Signal>
+        </MacroAction>
+      </MacroActions>
+    </Macro>
+  </Macros>
+</SchedulerState>

@@ -1,0 +1,14 @@
+cast-html5-redbox
+sleep 18
+OK
+sleep 8
+RIGHT
+sleep 3
+OK
+sleep 6
+RIGHT
+sleep 2
+RIGHT
+sleep 2
+OK
+sleep 5

@@ -1,0 +1,36 @@
+cast-haystacktv
+sleep 18
+OK
+sleep 4
+DOWN
+sleep 2
+DOWN
+sleep 2
+OK
+sleep 6
+DOWN
+sleep 2
+DOWN
+sleep 2
+DOWN
+sleep 2
+DOWN
+sleep 2
+OK
+sleep 8
+DOWN
+sleep 2
+DOWN
+sleep 2
+DOWN
+sleep 2
+DOWN
+sleep 2
+OK
+sleep 8
+DOWN
+sleep 2
+DOWN
+sleep 2
+OK
+sleep 8

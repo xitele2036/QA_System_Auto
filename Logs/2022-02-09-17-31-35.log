@@ -1,0 +1,11 @@
+2022-02-09 17:31:47,682 - test - INFO - {'Sanity test': ['Test_Case_001', 'Test_Case_002', 'Test_Case_003', 'Test_Case_004', 'Test_Case_005', 'Test_Case_006', 'Test_Case_007', 'Test_Case_008', 'Test_Case_009', 'Test_Case_010', 'Test_Case_011', 'Test_Case_012', 'Test_Case_013', 'Test_Case_014', 'Test_Case_015', 'Test_Case_016', 'Test_Case_017', 'Test_Case_018', 'Test_Case_019', 'Test_Case_020', 'Test_Case_021', 'Test_Case_022', 'Test_Case_023', 'Test_Case_024', 'Test_Case_025', 'Test_Case_026', 'Test_Case_027', 'Test_Case_028', 'Test_Case_029', 'Test_Case_030', 'Test_Case_031', 'Test_Case_032', 'Test_Case_033', 'Test_Case_034', 'Test_Case_035', 'Test_Case_036', 'Test_Case_037', 'Test_Case_038', 'Test_Case_039', 'Test_Case_040', 'Test_Case_041', 'Test_Case_042', 'Test_Case_043', 'Test_Case_044', 'Test_Case_045', 'Test_Case_046', 'Test_Case_047', 'Test_Case_048']}
+2022-02-09 17:31:47,682 - test - INFO - ['Sanity test']
+2022-02-09 17:32:12,570 - test - INFO - ['Sanity test', 'Test_Case_007', 'Netflix login and playback SDR Movie "House Of Card"', 7, 1, '[REMOTEKEY]NetRatCaseSuite:netflix_login.txt', '', '', '', '', '', '[CAM-VIDEO-END]Netflix_SDR_001,10', '', '', '', 30.0, '', '', '', '']
+2022-02-09 17:32:18,273 - test - INFO - Camera thread status before next case:
+2022-02-09 17:32:18,273 - test - INFO - False
+2022-02-09 17:32:18,273 - test - INFO - Current Function:REMOTEKEY
+2022-02-09 17:32:18,273 - test - INFO - Rest Key Commands:NetRatCaseSuite:netflix_login.txt
+2022-02-09 17:32:18,273 - test - INFO - Execute Remote key list from file:NetRatCaseSuite:netflix_login.txt
+2022-02-09 17:34:24,252 - test - INFO - 1 rows are selected for testing
+2022-02-09 17:34:24,252 - test - INFO - Total:0
+2022-02-09 17:34:24,252 - test - INFO - Cases Info:['Sanity test', 'Test_Case_007', 'Netflix login and playback SDR Movie "House Of Card"', 7, 1, '[REMOTEKEY]NetRatCaseSuite:netflix_login.txt', '', '', '', '', '', '[CAM-VIDEO-END]Netflix_SDR_001,10', '', '', '', 30.0, '', '', '', '']

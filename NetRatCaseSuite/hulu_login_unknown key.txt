@@ -1,0 +1,104 @@
+cast-html5-hulu
+sleep 15
+LEFT
+sleep 2
+OK
+sleep 2
+OK
+sleep 2
+KEYBOARD_J
+sleep 1
+KEYBOARD_a
+sleep 1
+KEYBOARD_n
+sleep 1
+KEYBOARD_i
+sleep 1
+KEYBOARD_e
+sleep 1
+KEYBOARD_UNDERSCORE
+sleep 1
+KEYBOARD_i
+sleep 1
+KEYBOARD_m
+sleep 1
+KEYBOARD_AT
+sleep 1
+KEYBOARD_v
+sleep 1
+DOT
+sleep 1
+KEYBOARD_s
+sleep 1
+KEYBOARD_i
+sleep 1
+KEYBOARD_l
+sleep 1
+KEYBOARD_i
+sleep 1
+KEYBOARD_c
+sleep 1
+KEYBOARD_o
+sleep 1
+KEYBOARD_n
+sleep 1
+KEYBOARD_FULL_STOP
+sleep 1
+KEYBOARD_c
+sleep 1
+KEYBOARD_o
+sleep 1
+KEYBOARD_m
+sleep 3
+KEYBOARD_RIGHT
+sleep 1
+KEYBOARD_RIGHT
+sleep 1
+KEYBOARD_RIGHT
+sleep 1
+KEYBOARD_RIGHT
+sleep 1
+OK
+sleep 2
+KEYBOARD_T
+sleep 1
+KEYBOARD_E
+sleep 1
+KEYBOARD_S
+sleep 1
+KEYBOARD_T
+sleep 1
+1
+sleep 1
+2
+sleep 1
+3
+sleep 1
+RIGHT
+sleep 1
+RIGHT
+sleep 1
+RIGHT
+sleep 1
+RIGHT
+sleep 1
+RIGHT
+sleep 1
+RIGHT
+sleep 1
+DOWN
+sleep 1
+DOWN
+sleep 1
+OK
+sleep 3
+OK
+sleep 5
+DOWN
+sleep 2
+OK
+sleep 3
+OK
+sleep 3
+OK
+sleep 10
