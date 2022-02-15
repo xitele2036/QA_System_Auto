@@ -1,0 +1,28 @@
+2022-02-15 10:32:19,759 - test - INFO - {'Sanity test': ['Test_Case_001', 'Test_Case_002', 'Test_Case_003', 'Test_Case_004', 'Test_Case_005', 'Test_Case_006', 'Test_Case_007', 'Test_Case_008', 'Test_Case_009', 'Test_Case_010', 'Test_Case_011', 'Test_Case_012', 'Test_Case_013', 'Test_Case_014', 'Test_Case_015', 'Test_Case_016', 'Test_Case_017', 'Test_Case_018', 'Test_Case_019', 'Test_Case_020', 'Test_Case_021', 'Test_Case_022', 'Test_Case_023', 'Test_Case_024', 'Test_Case_025', 'Test_Case_026', 'Test_Case_027', 'Test_Case_028', 'Test_Case_029', 'Test_Case_030', 'Test_Case_031', 'Test_Case_032', 'Test_Case_033', 'Test_Case_034', 'Test_Case_035', 'Test_Case_036', 'Test_Case_037', 'Test_Case_038', 'Test_Case_039', 'Test_Case_040', 'Test_Case_041', 'Test_Case_042', 'Test_Case_043', 'Test_Case_044', 'Test_Case_045', 'Test_Case_046', 'Test_Case_047', 'Test_Case_048']}
+2022-02-15 10:32:19,759 - test - INFO - ['Sanity test']
+2022-02-15 10:32:26,161 - test - INFO - ['Sanity test', 'Test_Case_014', 'Enable Store Demo Overlay at HDMI1 source', 14, 1, '[REST]put store_demo Enabled', '', '', '', '', '', '[CAM-VIDEO-END]Store_Demo_001,10', '', '', '', 20.0, '', '', '', '']
+2022-02-15 10:32:26,658 - test - INFO - ['Sanity test', 'Test_Case_020', 'Switch to DTV channel 10-1 SRNF1', 20, 1, '[REST]put current_input TV', '', '', '', '[REST]get resolution', '480i', '[CAM-IMG]TVPIC_001,1', '', '', '', 15.0, 'NT', '', '', '']
+2022-02-15 10:32:27,896 - test - INFO - ['Sanity test', 'Test_Case_028', 'Video playback', 28, 1, '[REMOTEKEY]BACK,3,BACK,3,DOWN,3,OK,2,RIGHT,2,OK,3', '', '', '', '', '', '[CAM-VIDEO-END]MP4_Playback,4', '', '', '', 30.0, '', '', '', '']
+2022-02-15 10:32:32,701 - test - INFO - Total 10 test cycle(s) need be executed and need test time:650s
+2022-02-15 10:32:33,736 - test - INFO - Camera thread status before next case: False
+2022-02-15 10:32:33,736 - test - INFO - Current Function:REST
+2022-02-15 10:32:33,736 - test - INFO - RESTCommand:put store_demo Enabled
+2022-02-15 10:32:34,083 - test - INFO - restValue:False
+2022-02-15 10:32:37,306 - test - INFO - [Errno 2] No such file or directory: '../Restlog/./Logs/restlog.txt'
+2022-02-15 10:32:37,353 - test - INFO - Camera thread status before next case: False
+2022-02-15 10:32:37,353 - test - INFO - Current Function:REST
+2022-02-15 10:32:37,353 - test - INFO - RESTCommand:put current_input TV
+2022-02-15 10:32:37,609 - test - INFO - restValue:False
+2022-02-15 10:32:40,790 - test - INFO - [Errno 2] No such file or directory: '../Restlog/./Logs/restlog.txt'
+2022-02-15 10:32:40,843 - test - INFO - Camera thread status before next case: False
+2022-02-15 10:32:40,859 - test - INFO - Current Function:REMOTEKEY
+2022-02-15 10:32:40,859 - test - INFO - Rest Key Commands:BACK,3,BACK,3,DOWN,3,OK,2,RIGHT,2,OK,3
+2022-02-15 10:33:04,344 - test - INFO - 3 rows are selected for testing
+2022-02-15 10:33:04,344 - test - INFO - Total:0
+2022-02-15 10:33:04,344 - test - INFO - Cases Info:['Sanity test', 'Test_Case_028', 'Video playback', 28, 1, '[REMOTEKEY]BACK,3,BACK,3,DOWN,3,OK,2,RIGHT,2,OK,3', '', '', '', '', '', '[CAM-VIDEO-END]MP4_Playback,4', '', '', '', 30.0, '', '', '', '']
+2022-02-15 10:33:33,839 - test - INFO - Camera thread status before next case: False
+2022-02-15 10:33:33,839 - test - INFO - Current Function:REST
+2022-02-15 10:33:33,839 - test - INFO - RESTCommand:put store_demo Enabled
+2022-02-15 10:33:34,124 - test - INFO - restValue:False
+2022-02-15 10:33:37,282 - test - INFO - [Errno 2] No such file or directory: '../Restlog/./Logs/restlog.txt'
+2022-02-15 10:33:37,289 - test - INFO - Before Destroy main

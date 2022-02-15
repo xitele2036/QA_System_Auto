@@ -1,0 +1,20 @@
+2022-02-15 13:35:06,263 - test - INFO - {'Sanity test': ['Test_Case_001', 'Test_Case_002', 'Test_Case_003', 'Test_Case_004', 'Test_Case_005', 'Test_Case_006', 'Test_Case_007', 'Test_Case_008', 'Test_Case_009', 'Test_Case_010', 'Test_Case_011', 'Test_Case_012', 'Test_Case_013', 'Test_Case_014', 'Test_Case_015', 'Test_Case_016', 'Test_Case_017', 'Test_Case_018', 'Test_Case_019', 'Test_Case_020', 'Test_Case_021', 'Test_Case_022', 'Test_Case_023', 'Test_Case_024', 'Test_Case_025', 'Test_Case_026', 'Test_Case_027', 'Test_Case_028', 'Test_Case_029', 'Test_Case_030', 'Test_Case_031', 'Test_Case_032', 'Test_Case_033', 'Test_Case_034', 'Test_Case_035', 'Test_Case_036', 'Test_Case_037', 'Test_Case_038', 'Test_Case_039', 'Test_Case_040', 'Test_Case_041', 'Test_Case_042', 'Test_Case_043', 'Test_Case_044', 'Test_Case_045', 'Test_Case_046', 'Test_Case_047', 'Test_Case_048']}
+2022-02-15 13:35:06,263 - test - INFO - ['Sanity test']
+2022-02-15 13:35:20,442 - test - INFO - The loop time for one cycle test is (s):0
+2022-02-15 13:35:20,442 - test - INFO - Loop Test case table:[]
+2022-02-15 13:35:23,505 - test - INFO - Total 1 test cycle(s) need be executed and need test time:0s
+2022-02-15 13:35:25,674 - test - INFO - ['Sanity test', 'Test_Case_004', 'Pair', 4, 1, '[REST]PAIR', '', '', '', '', '', '', '', '', '', 10.0, '', '', '', '']
+2022-02-15 13:35:26,229 - test - INFO - ['Sanity test', 'Test_Case_008', 'Playback EDR Movie "Marco Polo"', 8, 1, '[REMOTEKEY]BACK,2,BACK,2,RIGHT,2,OK,2,OK,2', '', '', '', '', '', '[CAM-VIDEO-END]Netflix_EDR_001,10', '', '', '', 30.0, '', '', '', '']
+2022-02-15 13:35:29,471 - test - INFO - The loop time for one cycle test is (s):10
+2022-02-15 13:35:29,471 - test - INFO - Loop Test case table:[['Sanity test', 'Test_Case_004', 'Pair', 4, 1, '[REST]PAIR', '', '', '', '', '', '', '', '', '', 10.0, '', '', '', '']]
+2022-02-15 13:35:30,768 - test - INFO - Total 1 test cycle(s) need be executed and need test time:10s
+2022-02-15 13:35:31,798 - test - INFO - ***********************No Video Capture At this time*******************************
+2022-02-15 13:35:31,798 - test - INFO - Current Function:REST
+2022-02-15 13:35:31,798 - test - INFO - RESTCommand:PAIR
+2022-02-15 13:35:38,975 - test - INFO - 1 rows are selected for testing
+2022-02-15 13:35:38,975 - test - INFO - Total:0
+2022-02-15 13:35:38,975 - test - INFO - Cases Info:['Sanity test', 'Test_Case_004', 'Pair', 4, 1, '[REST]PAIR', '', '', '', '', '', '', '', '', '', 10.0, '', '', '', '']
+2022-02-15 13:35:47,665 - test - INFO - The loop time for one cycle test is (s):0
+2022-02-15 13:35:47,665 - test - INFO - Loop Test case table:[]
+2022-02-15 13:35:49,602 - test - INFO - Total 1 test cycle(s) need be executed and need test time:0s
+2022-02-15 13:37:14,973 - test - INFO - Before Destroy main
