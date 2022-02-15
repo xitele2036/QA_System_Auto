@@ -688,8 +688,8 @@ class AutoTestAppPanel(wx.Panel):
                 
     def OnTimer(self, event):
         
-        if self.TotalLoopTime >0:
-            if ( self.loopTime == 0 ):
+        if self.TotalLoopTime > 0:
+            if self.loopTime == 0:
                 t = time.localtime(time.time())
                 strIMSt = time.strftime("%I:%M:%S", t) 
                 #print("test start:",strIMSt)
@@ -710,7 +710,7 @@ class AutoTestAppPanel(wx.Panel):
                     #print(e)
                     logger.info(e)
                     self.Log( "Error: %s" %str(e.args) )
-                    self.OnStop(event)    
+                    self.OnStop()
                      
                 self.loopTime = int(self.loopCurr[self.colIdx['Time(s)']])
                 self.TotalLoopTime=self.TotalLoopTime-self.loopTime
@@ -725,7 +725,7 @@ class AutoTestAppPanel(wx.Panel):
                 logger.info("The cycle toltal test time:",self.TotalLoopTime)
 
         else:
-            self.OnStop(event)
+            self.OnStop()
             self.table.ClearSelection()
 
 
@@ -792,12 +792,14 @@ class AutoTestAppPanel(wx.Panel):
         self.loop.SetLabel("Looping")
         self.loopTable = []
         self.TotalLoopTime=0
-        self.OneCycleLoopTime0=0
+        self.OneCycleLoopTime=0
                 
         Rows = self.table.GetSelectedRowsFromTable()
+        if not Rows:
+            self.ShowMessage1()
         for row in Rows:
             table = self.table.GetRowValueFromTable(row)
-            
+
             '''
             attr=wx.grid.GridCellAttr()
             attr.SetBackgroundColour("light blue")
@@ -813,27 +815,27 @@ class AutoTestAppPanel(wx.Panel):
                     table[self.colIdx['Time(s)']] = 3
                 self.OneCycleLoopTime=self.OneCycleLoopTime+int(table[self.colIdx['Time(s)']])
         #print("The loop time for one cycle test is (s):",self.OneCycleLoopTime)
-        logger.info("The loop time for one cycle test is (s):",self.OneCycleLoopTime)
+        logger.info("The loop time for one cycle test is (s):{}".format(self.OneCycleLoopTime))
         #print("Loop Test case table:",self.loopTable)
-        logger.info("Loop Test case table:",self.loopTable)
+        logger.info("Loop Test case table:{}".format(self.loopTable))
 
-            
+
         # set loop time for each selected case
         defaultLoopTime = 0
         defaultLoopCycles = 0
-         
+
         for table in self.loopTable:
             if table[self.colIdx['Time(s)']] == '':
                 if defaultLoopTime == 0:
                     dlg = wx.TextEntryDialog(None, "Set Default Loop Time",
                                       'Config',
-                                      "3", style=wx.OK|wx.CANCEL)                                      
+                                      "3", style=wx.OK|wx.CANCEL)
                     if dlg.ShowModal() == wx.ID_OK:
                         defaultLoopTime = int(dlg.GetValue())
                     else:
-                        defaultLoopTime = 3                          
+                        defaultLoopTime = 3
                     dlg.Destroy()
-   
+
                 table[self.colIdx['Time(s)']] = defaultLoopTime
 
         dlg_loopcycles = wx.TextEntryDialog(None,"Set Loop Times",
@@ -842,29 +844,29 @@ class AutoTestAppPanel(wx.Panel):
         if dlg_loopcycles.ShowModal()==wx.ID_OK:
             defaultLoopCycles = int(dlg_loopcycles.GetValue())
         else:
-            defaultLoopCycles =1
+            defaultLoopCycles = 1
         dlg_loopcycles.Destroy()
         self.TotalLoopTime=self.OneCycleLoopTime*defaultLoopCycles
         #print("Total %d test cycle(s) need be executed and need test time:%ds" % (defaultLoopCycles,self.TotalLoopTime))
         logger.info("Total %d test cycle(s) need be executed and need test time:%ds" % (defaultLoopCycles,self.TotalLoopTime))
 
-        self.table.AutoSizeColumns(True) 
-        
+        self.table.AutoSizeColumns(True)
+
         self.Log('-' * 60)
         self.Log("Loop Test Case:")
         self.Log("Selected Rows: " + str(Rows))
         for case in self.loopTable:
-            self.Log(str(case))  
+            self.Log(str(case))
         self.Log('-' * 60)
-            
-        self.runCase.Enable(False) 
-        self.stopCurrCase.Enable(False) 
-        self.nextCase.Enable(False) 
-                
+
+        self.runCase.Enable(False)
+        self.stopCurrCase.Enable(False)
+        self.nextCase.Enable(False)
+
         self.PauseCase.Enable(True)
         self.stopCase.Enable(True)
         self.loopTime = 0
-        self.loopCurr = None 
+        self.loopCurr = None
         self.rowNumber = 0
         self.timer.Start(1000)
 
@@ -1555,17 +1557,28 @@ class AutoTestAppPanel(wx.Panel):
         self.Set.Show()
 
     def Onpenvideo(self, event):
-        os.system("explorer.exe %s" % File_Path + "\Video")
+        # os.system("explorer %s" % File_Path + "\Video")
+        os.startfile(File_Path + "\Video")
 
     def Onclearvideo(self, event):
         ls = os.listdir(File_Path + "\Video")
-        for i in ls:
-            c_path = os.path.join(File_Path + "\Video", i)
-            if os.path.isdir(c_path):
-                self.Onclearvideo(c_path)
-            else:
-                os.remove(c_path)
+        if self.ShowMessage() == wx.ID_YES:
+            for i in ls:
+                c_path = os.path.join(File_Path + "\Video", i)
+                if os.path.isdir(c_path):
+                    self.Onclearvideo(c_path)
+                else:
+                    os.remove(c_path)
 
+    def ShowMessage(self):
+        info = wx.MessageDialog(self, "Are you sure you want to delete all videos ?",
+                                      'Warning',style=wx.YES_NO|wx.ICON_EXCLAMATION)
+        return info.ShowModal()
+
+    def ShowMessage1(self):
+        info = wx.MessageDialog(self, "You need to choose case",
+                                      'Warning',style=wx.OK|wx.ICON_EXCLAMATION)
+        return info.ShowModal()
 
     def OnExit(self):
         self.StopPrevCase()
